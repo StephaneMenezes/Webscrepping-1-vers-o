@@ -16,7 +16,7 @@ i = 1
 novosprodutos = []
 
 for i in range(1,5):
-    navegador.get('https://www.leomadeiras.com.br/madeiras/compensados/040101/'+str(i))
+    navegador.get('https://www.EXEMPLO DE SITE QUE NECESSITA INTERAÇÃO'+str(i))
     sleep(30)
     site = BeautifulSoup(navegador.page_source, 'html.parser')
 
